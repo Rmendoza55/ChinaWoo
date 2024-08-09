@@ -1,5 +1,5 @@
 <!-- Main Sidebar Container -->
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
+<aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: crimson">
 
     <div class="text-center">
         <a href="{{ route('home') }}">
@@ -36,23 +36,6 @@
                             <a href="{{ route('users') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Gestion de Usuarios</p>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link" style="color: white">
-                        <i class="nav-icon fas fa-chart-pie"></i>
-                        <p>
-                            Roles
-                            <i class="right fas fa-angle-left"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="{{ route('rols') }}" class="nav-link" style="color: white">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Gestion de Roles</p>
                             </a>
                         </li>
                     </ul>
