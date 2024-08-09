@@ -1,5 +1,5 @@
 <!-- Main Sidebar Container -->
-<aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: #FF1F00;">
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
 
     <div class="text-center">
         <a href="{{ route('home') }}">

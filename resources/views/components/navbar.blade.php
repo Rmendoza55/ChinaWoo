@@ -1,15 +1,12 @@
 <!-- Navbar -->
-<nav class="main-header navbar navbar-expand navbar-dark navbar-light" style="background-color: black">
+<nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
         <li class="nav-item">
             <a class="nav-link" data-widget="pushmenu" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <label class="nav-link">Usuario: </label>
-        </li>
-        <li class="nav-item d-none d-sm-inline-block">
-            <label class="nav-link">Rol: </label>
+            <a href="#" class="nav-link">Usuario: </a>
         </li>
     </ul>
 

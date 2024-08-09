@@ -14,9 +14,14 @@ class UsuarioSeeder extends Seeder
      */
     public function run(): void
     {
-        $user = User::find(1);
-        if ($user) {
-            $user->assignRole('Admin');
-        }
+        User::create([
+            'name' => 'Roberto Mendoza Figueroa',
+            'tipo_doc' => 'DNI',
+            'num_doc' => '72185817',
+            'celular' => '926854831',
+            'email' => 'arnorouge55@gmail.com',
+            'direccion' => 'Jr. Francisco de Zela 524',
+            'password' => bcrypt('Admin')
+        ])->assignRole('Admin');
     }
 }

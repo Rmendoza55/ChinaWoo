@@ -60,40 +60,28 @@
                             <!-- /.card-header -->
                             <div class="card-body">
                                 <table id="example1" class="table table-bordered table-striped">
-                                    <thead>
+                                    <thead class="table table-dark">
                                         <tr>
-                                            <th>Nombres y Apellidos</th>
-                                            <th>Nº Documento</th>
+                                            <th>Nombres</th>
+                                            <th>Tipo Documento</th>
+                                            <th>NUmero</th>
                                             <th>Celular</th>
+                                            <th>Direccion</th>
                                             <th>Correo</th>
-                                            <th>Rol</th>
                                             <th>Acciones</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Roberto Carlos Antonio Mendoza Figueroa</td>
-                                            <td>72185817</td>
-                                            <td>926854831</td>
-                                            <td>arnorouge55@gmail.com</td>
-                                            <td>Admin</td>
-                                            <td>
-                                                <a class="btn btn-success" href="#" type="button">Visualizar</a>
-                                                <a class="btn btn-warning" href="#" type="button">Actualizar</a>
-                                                <a class="btn btn-danger" href="#" type="button">Eliminar</a>
-                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                     </tbody>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Nombres y Apellidos</th>
-                                            <th>Nº Documento</th>
-                                            <th>Celular</th>
-                                            <th>Correo</th>
-                                            <th>Rol</th>
-                                            <th>Acciones</th>
-                                        </tr>
-                                    </tfoot>
                                 </table>
                             </div>
                             <!-- /.card-body -->
