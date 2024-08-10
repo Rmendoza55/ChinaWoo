@@ -22,24 +22,26 @@
                         </p>
                     </a>
                 </li>
-                <li class="nav-header" style="color: white">Administrador</li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link" style="color: white">
-                        <i class="nav-icon fas fa-user"></i>
-                        <p>
-                            Usuarios
-                            <i class="fas fa-angle-left right"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="{{ route('users') }}" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Gestion de Usuarios</p>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
+                @role('Admin')
+                    <li class="nav-header" style="color: white">Administrador</li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" style="color: white">
+                            <i class="nav-icon fas fa-user"></i>
+                            <p>
+                                Usuarios
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="{{ route('users') }}" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Gestion de Usuarios</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                @endrole
                 <li class="nav-header" style="color: white">Atenciones</li>
                 <li class="nav-item">
                     <a href="#" class="nav-link" style="color: white">
