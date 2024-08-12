@@ -19,7 +19,7 @@ class Pagos extends Model
         return $this->belongsTo(TipoPago::class);
     }
 
-    public function orden()
+    public function ordenes()
     {
         return $this->belongsToMany(Ordenes::class);
     }
